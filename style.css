@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #14213d;
 }
@@ -12,4 +16,8 @@ body {
 }
 .card-img-top {
   height: 250px;
+}
+.img-fluid.rounded-circle {
+  max-width: 350px;
+  height: auto;
 }

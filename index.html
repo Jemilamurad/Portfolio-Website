@@ -22,15 +22,20 @@
             <a
               class="nav-link active text-light"
               aria-current="page"
-              href="about"
+              href="#about"
               >About</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="projects">Projects</a>
+            <a class="nav-link text-light" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="contact">Contact</a>
+            <a class="nav-link text-light" href="#certifications"
+              >Certifications</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -54,144 +59,145 @@
             </h1>
             <p class="lead text-light">
               Hello, I'm Jemila, a web developer passionate about building
-              beautiful and functional websites!
+              beautiful and functional websites! I specialize in HTML, CSS, and
+              JavaScript, and I'm excited about creating user-friendly web
+              applications. My goal is to continually enhance my skills and
+              contribute to meaningful projects.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="projects">
-      <section id="projects" class="container my-5">
-        <h2 class="text-center mb-4 text-light">My Projects</h2>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card text-light">
-              <img
-                src="./images/cart.png"
-                class="card-img-top img-fluid"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Dessert Cart Project</h5>
-                <p class="card-text">
-                  This project is a dessert cart application where customers can
-                  add items to their cart, view item names, prices, quantities,
-                  and total costs. Upon confirming their order, a modal appears
-                  to show the order details. The application was built using
-                  HTML, CSS, and JavaScript, focusing on DOM manipulation and
-                  user interaction. This project enhanced my skills in handling
-                  dynamic content and building user-friendly interfaces.
-                </p>
-                <a
-                  href="https://github.com/Jemilamurad/Product-list-with-cart"
-                  class="btn btn-light"
-                  >View on GitHub</a
-                >
-                <a
-                  href="https://jemilamurad.github.io/Product-list-with-cart/"
-                  class="btn border-light text-light"
-                  >Live Preview</a
-                >
-              </div>
+    <section id="projects" class="container my-5">
+      <h2 class="text-center mb-4 text-light">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card text-light">
+            <img
+              src="./images/cart.png"
+              class="card-img-top img-fluid"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dessert Cart Project</h5>
+              <p class="card-text">
+                This project is a dessert cart application where customers can
+                add items to their cart, view item names, prices, quantities,
+                and total costs. Upon confirming their order, a modal appears to
+                show the order details. The application was built using HTML,
+                CSS, and JavaScript, focusing on DOM manipulation and user
+                interaction. This project enhanced my skills in handling dynamic
+                content and building user-friendly interfaces.
+              </p>
+              <a
+                href="https://github.com/Jemilamurad/Product-list-with-cart"
+                class="btn btn-light"
+                >View on GitHub</a
+              >
+              <a
+                href="https://jemilamurad.github.io/Product-list-with-cart/"
+                class="btn border-light text-light"
+                >Live Preview</a
+              >
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card text-light">
-              <img
-                src="./images/drum-kit.png"
-                class="card-img-top img-fluid"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Drum Kit Project</h5>
-                <p class="card-text">
-                  This project is an interactive web-based application that
-                  allows users to play drum sounds by pressing specific keys on
-                  their keyboard. The project was built using HTML, CSS, and
-                  JavaScript, focusing on event handling and audio integration.
-                  This project helped me improve my JavaScript skills,
-                  particularly in DOM manipulation and adding interactivity.
-                </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card text-light">
+            <img
+              src="./images/drum-kit.png"
+              class="card-img-top img-fluid"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drum Kit Project</h5>
+              <p class="card-text">
+                This project is an interactive web-based application that allows
+                users to play drum sounds by pressing specific keys on their
+                keyboard. The project was built using HTML, CSS, and JavaScript,
+                focusing on event handling and audio integration. This project
+                helped me improve my JavaScript skills, particularly in DOM
+                manipulation and adding interactivity.
+              </p>
 
-                <a
-                  href="https://github.com/Jemilamurad/Drum-Kit-project"
-                  class="btn btn-light mt-5"
-                  >View on GitHub</a
-                >
-                <a
-                  href="https://jemilamurad.github.io/Drum-Kit-project/"
-                  class="btn border-light text-light mt-5"
-                  >Live Preview</a
-                >
-              </div>
+              <a
+                href="https://github.com/Jemilamurad/Drum-Kit-project"
+                class="btn btn-light mt-5"
+                >View on GitHub</a
+              >
+              <a
+                href="https://jemilamurad.github.io/Drum-Kit-project/"
+                class="btn border-light text-light mt-5"
+                >Live Preview</a
+              >
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card text-light">
-              <img
-                src="./images/contact-form.png"
-                class="card-img-top img-fluid"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Contact Form</h5>
-                <p class="card-text">
-                  This project features a contact form that validates user
-                  input. If any fields are not filled out properly, an error
-                  message is displayed. Once all inputs are correctly filled, a
-                  popup modal appears to confirm the submission. The project was
-                  built using HTML, CSS, and JavaScript, emphasizing form
-                  validation and user experience.
-                </p>
-                <a
-                  href="https://github.com/Jemilamurad/Contact-Form"
-                  class="btn btn-light mt-5"
-                  >View on GitHub</a
-                >
-                <a
-                  href="https://jemilamurad.github.io/Contact-Form/"
-                  class="btn border-light text-light mt-5"
-                  >Live Preview</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card text-light">
-              <img
-                src="./images/tindog.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Tindog Website</h5>
-                <p class="card-text">
-                  This project was developed during an online course with my
-                  instructor. The website is designed to sell dogs and was built
-                  using HTML, CSS.Its a ststic site and it features a clean,
-                  responsive design with sections for dog listings, customer
-                  testimonials. This project helped me enhance my front-end
-                  development skills and improve my understanding of responsive
-                  web design.
-                </p>
-                <a
-                  href="https://github.com/Jemilamurad/Tindog-Project"
-                  class="btn btn-light"
-                  >View on GitHub</a
-                >
-                <a
-                  href="https://jemilamurad.github.io/Tindog-Project/"
-                  class="btn border-light text-light"
-                  >Live Preview</a
-                >
-              </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card text-light">
+            <img
+              src="./images/contact-form.png"
+              class="card-img-top img-fluid"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Contact Form</h5>
+              <p class="card-text">
+                This project features a contact form that validates user input.
+                If any fields are not filled out properly, an error message is
+                displayed. Once all inputs are correctly filled, a popup modal
+                appears to confirm the submission. The project was built using
+                HTML, CSS, and JavaScript, emphasizing form validation and user
+                experience.
+              </p>
+              <a
+                href="https://github.com/Jemilamurad/Contact-Form"
+                class="btn btn-light mt-5"
+                >View on GitHub</a
+              >
+              <a
+                href="https://jemilamurad.github.io/Contact-Form/"
+                class="btn border-light text-light mt-5"
+                >Live Preview</a
+              >
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-4 mb-4">
+          <div class="card text-light">
+            <img
+              src="./images/tindog.png"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tindog Website</h5>
+              <p class="card-text">
+                This project was developed during an online course with my
+                instructor. The website is designed to sell dogs and was built
+                using HTML, CSS.Its a ststic site and it features a clean,
+                responsive design with sections for dog listings, customer
+                testimonials. This project helped me enhance my front-end
+                development skills and improve my understanding of responsive
+                web design.
+              </p>
+              <a
+                href="https://github.com/Jemilamurad/Tindog-Project"
+                class="btn btn-light"
+                >View on GitHub</a
+              >
+              <a
+                href="https://jemilamurad.github.io/Tindog-Project/"
+                class="btn border-light text-light"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="certifications" class="container my-5">
