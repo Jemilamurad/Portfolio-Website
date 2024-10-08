@@ -1,0 +1,15 @@
+body {
+  background-color: #14213d;
+}
+.row {
+  justify-content: center;
+}
+.card {
+  background-color: #14213d;
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-img-top {
+  height: 250px;
+}
